@@ -1,0 +1,69 @@
+/*HEADER SECTION STYLING*/
+
+#headerNavigation {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+#navigation {
+    gap: 10px ;
+    display: flex;
+}
+
+#headerTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#subtitle {
+    color: red;
+    border: 1px solid black;
+}
+
+/*MAIN SECTION STYLING*/
+#callUs {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#article {
+    flex-basis: 250px;
+    border: 1px solid black;
+}
+
+#form {
+    flex-grow: 1;
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    
+}
+
+.titleSubtitle {
+    margin: 10px;
+}
+
+#ourpackage {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    
+}
+
+#ourpackage-city {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 200px;
+    flex-wrap: wrap;
+}
